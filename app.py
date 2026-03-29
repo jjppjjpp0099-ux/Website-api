@@ -1,3 +1,14 @@
+from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS  # <--- Ye line 1 (Naya add karna hai)
+
+app = Flask(__name__)
+CORS(app)  # <--- Ye line 2 (Naya add karna hai)
+
+# Iske niche aapka purana sara code (tokens, protobuf, etc.) rahega
+
+
+
+
 from flask import Flask, request, jsonify
 import asyncio
 from Crypto.Cipher import AES
