@@ -5,6 +5,9 @@ app = Flask(__name__)
 CORS(app)  # <--- Ye line 2 (Naya add karna hai)
 
 # Iske niche aapka purana sara code (tokens, protobuf, etc.) rahega
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 
 
