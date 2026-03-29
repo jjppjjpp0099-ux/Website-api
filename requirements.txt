@@ -1,0 +1,13 @@
+
+googleapis-common-protos
+Werkzeug
+firebase-admin
+gunicorn
+
+flask
+aiohttp
+pycryptodome
+requests
+protobuf==4.25.3
+PyGithub
+python-telegram-bot
