@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS  # <--- Ye line 1 (Naya add karna hai)
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
+
 CORS(app)  # <--- Ye line 2 (Naya add karna hai)
 
 # Iske niche aapka purana sara code (tokens, protobuf, etc.) rahega
