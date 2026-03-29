@@ -3,6 +3,7 @@ googleapis-common-protos
 Werkzeug
 firebase-admin
 gunicorn
+flask-cors
 
 flask
 aiohttp
